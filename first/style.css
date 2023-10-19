@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Arsenal", "sans-serif";
+}
+body {
+	display: flex;
+	justify-content: center;
+	background-color: wheat;
+}
+.container {
+	width: 90%;
+	height: auto;
+	margin: 20px 0;
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header {
+	font-size: 30px;
+	font-family: "Arsenal", "sans-serif";
+	color: white;
+}
+input {
+	width: 70%;
+	height: 40px;
+	outline: none;
+}
+.col-3 {
+    text-align: center;
+}
+.col-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+	background-color: red;
+	width: 90%;
+	height: auto;
+	padding: 40px;
+}
+.btn {
+	width: 10%;
+	height: 40px;
+	background-color: silver;
+	cursor: pointer;
+	outline: none;
+}
+.btn:hover {
+	background-color: rgb(221, 220, 220);
+}
+.second_row {
+	background-color: white;
+	width: 90%;
+	height: 500px;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    font-size: 20px;
+    background-color: silver;
+    margin: 5px 0;
+}
+.holder {
+    width: 80%;
+    padding: 0 2px;
+    text-align: start;
+    align-items: center;
+    color: white;
+}
+.close,.check {
+    width: 10%;
+    height: 35px;
+    background-color: silver;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: relative;
+}
+.big {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+.big:hover {
+    background-color: rgb(209, 207, 207);
+}
+.big:hover .close  {
+    color: white;
+}
+.big:hover .check {
+    color: white;
+}
+.complete{
+    text-decoration: line-through rgb(240, 36, 36);
+}
